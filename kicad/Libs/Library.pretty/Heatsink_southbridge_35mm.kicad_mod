@@ -1,13 +1,13 @@
 (footprint "Heatsink_southbridge_35mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.1 -18.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "66479a48-e7f7-4942-b183-0f2b965643e7")
+		(uuid "fc6a68e6-32db-47f0-914a-01e6367dae66")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 19.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a99e8bdf-6fc8-4b92-9940-53e7ed756e80")
+		(uuid "59f18b8d-c527-45f8-93dd-bde5564aa940")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "55fca3af-44ba-4672-8d3f-c5d5857b97d9")
+		(uuid "97568cb8-dafc-4ff7-9da6-42c7f1be1cca")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aec68166-6946-4858-9403-84e09448510c")
+		(uuid "597f3c02-6dfb-4511-94ae-898f8dd365b5")
 		(effects
 			(font
 				(size 1 1)
@@ -54,84 +54,114 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -20 8.68)
 		(end -18 8.7)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "421419ef-dec8-4015-825f-d04ed8f7a556")
+		(uuid "1d5bcf8b-020f-4103-9fcf-1762c3cf22ca")
 	)
 	(fp_line
 		(start -20 17.5)
 		(end -18 17.5)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b58c14bc-4d6b-4c7c-a9b4-1da9626bac8e")
+		(uuid "422dfbde-c089-4f86-98e4-3f4b352f66b6")
+	)
+	(fp_line
+		(start -18 -17.5)
+		(end 18 -17.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dc81453e-f2f3-4036-a909-1c6ec1bc88ab")
+	)
+	(fp_line
+		(start -18 8.7)
+		(end -18 -17.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69e83090-dda7-44b1-b105-531d7b880871")
+	)
+	(fp_line
+		(start 18 -8.7)
+		(end 18 17.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2de876b7-dd5e-41a5-86f5-2f2dac1933b2")
+	)
+	(fp_line
+		(start 18 17.5)
+		(end -18 17.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45cbdbf5-a545-4bf3-ae91-e2dc018a9234")
 	)
 	(fp_line
 		(start 20 -17.5)
 		(end 18 -17.5)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9fe24307-97e6-45c6-8b8a-f48df7fae005")
+		(uuid "496e41c5-aca3-4620-9c1b-35cf7271b1c0")
 	)
 	(fp_line
 		(start 20 -8.68)
 		(end 18 -8.7)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7b148685-af86-4cce-a4ad-6df3d4566db9")
-	)
-	(fp_rect
-		(start -18 -17.5)
-		(end 18 17.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "69a530f7-2383-4019-bc6c-fad23eade238")
+		(uuid "451a207f-f6af-4e0f-ba92-5a406f9ec34c")
 	)
 	(fp_arc
 		(start -20 17.5)
 		(mid -24.41 13.09)
 		(end -20 8.68)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "357b1b4e-ece2-4e67-a643-a86a62f6ca15")
+		(uuid "3cea2c8c-cd82-4129-8e1a-445df0c86c5b")
 	)
 	(fp_arc
 		(start 20 -17.5)
 		(mid 24.41 -13.09)
 		(end 20 -8.68)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0a5997bc-e363-4d32-9a69-216ab2a3eb78")
+		(uuid "dd5a70ce-f4e4-4ed2-a8cf-f51bdcd02931")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 21.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "bb1f6b6c-d66c-4b66-9952-343dffda2c95")
+		(uuid "3cea5aa8-5cd7-414b-b0d6-84f9bab62c5d")
 		(effects
 			(font
 				(size 1 1)
@@ -143,15 +173,15 @@
 		(at -20 13.09)
 		(size 1 1)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "6e4f9e56-3b58-4887-8eca-2595af413415")
+		(layers "*.Cu" "*.Mask")
+		(uuid "95f08459-779d-40aa-95cc-5f1bc30cbe03")
 	)
 	(pad "" np_thru_hole circle
 		(at 20 -13.09)
 		(size 1 1)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "4fc06fd8-6b38-475c-9feb-6b98c5d5b193")
+		(layers "*.Cu" "*.Mask")
+		(uuid "61a2efb2-1ebc-47da-8a69-ea889e365c15")
 	)
 	(embedded_fonts no)
 )
